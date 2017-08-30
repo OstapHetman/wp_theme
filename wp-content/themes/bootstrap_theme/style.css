@@ -256,3 +256,58 @@ h6,
     height: auto;
     margin-bottom: 15px;
 }
+
+.comments {
+    border: 1px grey solid;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.comments li {
+    list-style: none;
+}
+
+.comments h3,
+.comments h2 {
+    background: #f4f4f4;
+    color: #fff;
+    padding: 5px;
+}
+
+.comment-body {
+    border: #ccc solid 1px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+.comment-meta {
+    background: #428bca;
+    color: #fff;
+    padding: 10px;
+    overflow: auto;
+}
+
+.comment-meta a {
+    color: #fff;
+}
+
+.comment-meta img {
+    float: left;
+    margin-right: 20px;
+}
+
+.comment-reply-link {
+    background: #428bca;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 4px;
+    border: #ccc solid 1px;
+    margin-bottom: 15px;
+}
