@@ -187,3 +187,43 @@ h6,
 .blog-footer p:last-child {
     margin-bottom: 0;
 }
+
+
+/* Custom Styles */
+
+.showcase {
+    height: 600px;
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 30px;
+    background: url('../img/showcase.png') no-repeat center center;
+    background-size: cover;
+}
+
+.showcase h1 {
+    font-size: 55px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.showcase p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    text-align: center;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.box .fa {
+    font-size: 45px !important;
+    margin-bottom: 10px;
+}
+
+.box {
+    padding: 15px;
+    border: 1px #ccc solid;
+}
