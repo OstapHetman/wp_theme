@@ -212,8 +212,6 @@ h6,
     text-align: center;
     border-bottom: 1px #ccc solid;
     margin-bottom: 30px;
-    background: #333 url('../img/showcase.png') no-repeat center center;
-    background-size: cover;
 }
 
 .showcase h1 {

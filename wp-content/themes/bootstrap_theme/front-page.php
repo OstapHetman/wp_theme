@@ -20,6 +20,10 @@
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <?php wp_head(); ?>
+    <style>
+    .showcase {
+        background: url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url').'/img/showcase.png'); ?>) no-repeat center center;
+    }</style>
 </head>
 
 <body>
@@ -46,9 +50,9 @@
 
 <section class="showcase">
         <div class="container">
-             <h1>Custom Bootstrap Wordpress Theme</h1>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, at. Debitis ullam odio, veritatis quos neque libero soluta consequatur quis eos accusantium dolor atque unde reprehenderit commodi ad, tenetur officiis.</p>
-             <a href="" class="btn btn-primary btn-lg">Read More..</a>
+             <h1><?php echo get_theme_mod('showcase_heading', 'Custom Bootstrap Wordpress Theme'); ?></h1>
+             <p><?php echo get_theme_mod('showcase_text', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, at. Debitis ullam odio, veritatis quos neque libero soluta consequatur quis eos accusantium dolor atque unde reprehenderit commodi ad, tenetur officiis.'); ?></p>
+             <a href="<?php echo get_theme_mod('btn_url', 'http://test.com'); ?>" class="btn btn-primary btn-lg"><?php echo get_theme_mod('btn_text', 'Read More'); ?></a>
          </div>
      </section>
  
